@@ -48,5 +48,12 @@ namespace SolidPrinciples.Test
             Assert.AreEqual(2m, _cart.TotalAmount());
         }
 
+        [TestMethod]
+        public void FourDollarsWithFourBuy4Get1FreeItems()
+        {
+            _cart.Add(new OrderItem { Quantity = 5, Sku = "B4GO_APPLE" });
+            Assert.AreEqual(4m, _cart.TotalAmount());
+        }
+
     }
 }
