@@ -1,4 +1,4 @@
-# PluralSightSolidCourser
+# PluralSightSolidCourse
 Contains all code developed while studying Solid Patterns
 
 
